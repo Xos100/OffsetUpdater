@@ -28,7 +28,7 @@
     "m_pAimPunchServices": "0x1490",
     "m_vecViewOffset": "0xE70",
     "m_angEyeAngles": "0x3320",
-    "m_pWeaponServices": "0x11E8",
+    "m_pWeaponServices": "0x11E0",
     "m_pObserverServices": "0x11F8",
     "m_pInventoryServices": "0x810"
   },
