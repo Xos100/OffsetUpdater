@@ -1,1 +1,88 @@
-
+{
+  "GameOverlayRenderer64.dll": {
+    "present": "48 89 5C 24 ? 48 89 6C 24 ? 56 57 41 54 41 56 41 57 48 83 EC ? 41 8B E8"
+  },
+  "client.dll": {
+    "createmove": "48 8B C4 4C 89 40 ? 48 89 48 ? 55 53 41 54",
+    "overrideview": "40 57 48 83 EC ? 48 8B FA E8 ? ? ? ? BA",
+    "drawscopeoverlay": "48 8B C4 53 57 48 83 EC ? 48 8B FA",
+    "drawlegs": "40 55 53 56 41 56 41 57 48 8D AC 24 ? ? ? ? 48 81 EC ? ? ? ? F2 0F 10 42",
+    "validateinput": "40 53 48 83 EC ? 48 8B D9 E8 ? ? ? ? 33 C0 C6 83 ? ? ? ? 00",
+    "getviewangles": "4C 8B C1 85 D2 74 ? 48 8D 05",
+    "setviewangles": "85 D2 75 ? 48 63 81",
+    "drawsmokevertex": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC ? 48 8B 9C 24 ? ? ? ? 4D 8B F8",
+    "getchatobject": "48 8B 05 ? ? ? ? C3 ? ? ? ? ? ? ? ? 48 8B 05 ? ? ? ? 48 8D 0D",
+    "sendchatmessage": "4C 89 44 24 ? 4C 89 4C 24 ? 53 B8",
+    "regenerateweaponskins": "48 83 EC ? E8 ? ? ? ? 48 85 C0 0F 84 ? ? ? ? 48 8B 10",
+    "levelinit": "40 55 56 41 56 48 8D 6C 24 ? 48 81 EC ? ? ? ? 48 8B 0D",
+    "levelshutdown": "48 83 EC ? 48 8B 0D ? ? ? ? 48 8D 15 ? ? ? ? 45 33 C9 45 33 C0 ? ? ? FF 50 ? 48 85 C0 74 ? 48 8B 0D ? ? ? ? 48 8B D0 ? ? ? 41 FF 50 ? 48 83 C4",
+    "flashoverlay": "85 D2 0F 88 ? ? ? ? 48 89 4C 24 ? 55 56",
+    "traceshape": "48 89 5C 24 ? 48 89 4C 24 ? 55 57",
+    "changemodel": "40 53 48 83 EC ? 48 8B D9 4C 8B C2 48 8B 0D ? ? ? ? 48 8D 54 24",
+    "framestagenotify": "48 89 5C 24 ? 48 89 6C 24 ? 57 48 83 EC ? 48 8B F9 33 ED",
+    "onaddentity": "48 89 74 24 ? 57 48 83 EC ? 41 B9 ? ? ? ? 41 8B C0 41 23 C1 48 8B F2 41 83 F8 ? 48 8B F9 44 0F 45 C8 41 81 F9 ? ? ? ? 73 ? FF 81",
+    "onremoveentity": "48 89 74 24 ? 57 48 83 EC ? 41 B9 ? ? ? ? 41 8B C0 41 23 C1 48 8B F2 41 83 F8 ? 48 8B F9 44 0F 45 C8 41 81 F9 ? ? ? ? 73 ? FF 89",
+    "updateglobalvars": "48 8B 0D ? ? ? ? 4C 8D 05 ? ? ? ? 48 85 D2",
+    "forcebuttonsdown": "40 53 57 41 56 48 81 EC ? ? ? ? 48 83 79 ? 00",
+    "drawcrosshair": "48 89 5C 24 ? 57 48 83 EC ? 48 8B D9 E8 ? ? ? ? 48 85 C0",
+    "updatepostprocessing": "48 85 D2 0F 84 ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? ? ? 00 48 8B DA 48 8B F9 0F 84 ? ? ? ? 48 8D 15",
+    "updateskybox": "48 89 5C 24 ? 57 48 83 EC ? 48 8B F9 E8 ? ? ? ? 48 8B 47",
+    "calcviewmodel": "40 55 53 56 41 56 41 57 48 8B EC",
+    "equipiteminloadout": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 89 54 24 ? 57 41 54 41 55 41 56 41 57 48 83 EC ? 0F B7 FA",
+    "computerandomseed": "48 89 5C 24 ? 57 48 81 EC ? ? ? ? ? ? ? ? 48 8D 8C 24",
+    "settypekv3": "40 53 48 83 EC ? ? ? ? 41 B9 ? ? ? ? 49 83 CA",
+    "drawteamintro": "48 83 EC ? ? ? ? ? 44 38 89",
+    "showmessagebox": "44 88 4C 24 ? 53 41 56",
+    "setplayerready": "40 53 48 83 EC ? 48 8B DA 48 8D 15 ? ? ? ? 48 8B CB FF 15",
+    "createparticleeffect": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? F3 0F 10 1D ? ? ? ? 41 8B F8 8B DA 4C 8D 05",
+    "unknownparticlefunction": "40 56 48 83 EC ? 41 8B F0",
+    "cacheparticleeffect": "4C 8B DC 53 48 81 EC ? ? ? ? F2 0F 10 05",
+    "getparticlemanager": "48 8B 05 ? ? ? ? C3 ? ? ? ? ? ? ? ? 48 89 5C 24 ? 57 B8",
+    "popupeventhandle": "40 56 57 41 57 48 83 EC ? 48 8B 3D ? ? ? ? 4D 85 C0",
+    "setmeshgroupmask": "40 53 48 83 EC ? ? ? ? 48 8B D9 4C 39 81",
+    "inittracedata": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8D 79 ? 33 F6 C7 47",
+    "inittraceinfo": "40 55 41 55 41 57 48 83 EC",
+    "initfilter": "48 89 5C 24 ? 48 89 74 24 ? 57 48 83 EC ? 0F B6 41 ? 33 FF 24",
+    "createtrace": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 41 56 41 57 48 83 EC ? ? ? ? ? 4D 8D 71",
+    "gettraceinfo": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 83 EC ? 48 8B E9 0F 29 74 24",
+    "handlebulletpenetration": "48 8B C4 44 89 48 ? 48 89 50 ? 48 89 48 ? 55 57",
+    "getentitybyindex": "4C 8D 49 ? 81 FA",
+    "getlocalpawn": "48 83 EC ? 83 F9 ? 75 ? 48 8B 0D ? ? ? ? 48 8D 54 24 ? ? ? ? FF 90 ? ? ? ? ? ? 48 63 C1 4C 8D 05",
+    "getlocalcontroller": "48 83 EC ? 83 F9 ? 75 ? 48 8B 0D ? ? ? ? 48 8D 54 24 ? ? ? ? FF 90 ? ? ? ? ? ? 48 63 C1 48 8D 0D ? ? ? ? ? ? ? ? 48 83 C4 ? C3 ? ? ? ? ? ? ? ? ? ? ? ? ? 48 83 EC ? 83 F9",
+    "reporthit": "40 53 48 83 EC ? 48 8D 05 ? ? ? ? 48 8D 59 ? ? ? ? ? ? ? 74 ? 48 8B CB E8 ? ? ? ? ? ? ? 0F B6 C1 ? ? A8 ? 74 ? 48 8D 59 ? 48 85 DB 74 ? 48 8B CB E8 ? ? ? ? BA ? ? ? ? 48 8B CB 48 83 C4 ? 5B E9 ? ? ? ? 48 83 C4 ? 5B C3 ? ? ? ? ? ? ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B F9 ? ? ? F6 41 ? ? 74 ? 48 83 C1 ? E8 ? ? ? ? EB ? 48 8B 41 ? 48 83 E0 ? 48 85 C0 75 ? 48 8D 4F ? E8 ? ? ? ? 48 8D 4F ? E8 ? ? ? ? 48 8B 5F ? 0F B6 C3 ? ? A8 ? 74 ? 48 83 C3 ? 74 ? 48 8B CB E8 ? ? ? ? BA ? ? ? ? 48 8B CB E8 ? ? ? ? 48 8B 5C 24 ? 48 83 C4 ? 5F C3 ? ? ? ? ? ? 48 89 5C 24 ? 57 48 83 EC ? 48 8D 05 ? ? ? ? 48 8B D9",
+    "renderdecals": "44 88 4C 24 ? 55 53",
+    "setupmapinfo": "48 8B C4 48 89 58 ? 48 89 68 ? 48 89 70 ? 57 48 81 EC ? ? ? ? 0F 29 70 ? 48 8B EA 0F 29 78 ? 45 33 C0",
+    "getspread": "48 83 EC ? 48 63 91",
+    "getinaccuracy": "48 89 5C 24 ? 55 56 57 48 81 EC ? ? ? ? 44 0F 29 84 24",
+    "matchfoundhandler": "48 83 EC ? 48 8B 0D ? ? ? ? 48 85 C9 74 ? ? ? ? 48 89 7C 24",
+    "panoramaevent": "40 56 57 41 57 48 83 EC ? 48 8B 3D ? ? ? ? 4D 85 C0",
+    "findhudelement": "4C 8B DC 53 48 83 EC ? 48 8B 05",
+    "emitpanoramasound": "40 53 48 81 EC ? ? ? ? ? ? ? 48 8B 05"
+  },
+  "materialsystem2.dll": {
+    "creatematerial": "48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 41 56 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 8B F2"
+  },
+  "soundsystem.dll": {
+    "playvsnd": "48 89 5C 24 ? 48 89 74 24 ? 48 89 7C 24 ? 55 48 8D 6C 24 ? 48 81 EC ? ? ? ? 33 F6 C7 45 ? ? ? ? ? 4C 8B C1"
+  },
+  "scenesystem.dll": {
+    "canimatablesceneobjectdescrender": "48 8B C4 53 57 41 54",
+    "drawlightscene": "? ? ? ? F2 0F 10 42 ? F2 0F 11 41 ? 8B 42 ? 89 41 ? F2 0F 10 42 ? F2 0F 11 41 ? 8B 42 ? 89 41 ? 8B 42 ? 89 41 ? 8B 42",
+    "drawaggregatesceneobjectarray": "48 8B C4 48 89 50 ? 48 89 48 ? 55 53 56 57 41 54 41 55 41 56 41 57 48 8D A8 ? ? ? ? 48 81 EC ? ? ? ? 0F 29 70",
+    "skyboxdrawarray": "45 85 C9 0F 8E ? ? ? ? 4C 8B DC",
+    "generateprimitives": "48 8B C4 48 89 58 ? 48 89 50 ? 55 56 57 41 54 41 55 41 56 41 57 48 81 EC",
+    "updatelightobject": "48 89 54 24 ? 55 57 41 56 48 83 EC",
+    "tonemapupdate": "40 53 48 83 EC ? 48 8B D9 0F 29 74 24"
+  },
+  "engine2.dll": {
+    "getaspectratio": "48 89 5C 24 ? 57 48 83 EC ? 8B FA 48 8D 0D",
+    "isingame": "48 8B 05 ? ? ? ? 48 85 C0 74 ? 80 B8 ? ? ? ? 00 75 ? 83 B8 ? ? ? ? ? 7C",
+    "isconnected": "48 8B 05 ? ? ? ? 48 85 C0 74 ? 83 B8 ? ? ? ? ? 0F 9D C0",
+    "runcommand": "48 8B C4 48 89 58 ? 48 89 68 ? 48 89 70 ? 57 41 56 41 57 48 81 EC ? ? ? ? 0F 29 70 ? 41 0F B6 E9",
+    "getlevelname": "48 83 EC ? E8 ? ? ? ? 84 C0 74 ? 48 8D 05 ? ? ? ? 48 83 C4 ? C3 48 8B 0D ? ? ? ? 48 85 C9 74 ? 83 B9 ? ? ? ? ? 7C ? 48 8B 89 ? ? ? ? 48 8D 05 ? ? ? ? 48 85 C9 48 0F 45 C1 48 83 C4 ? C3 48 8D 05 ? ? ? ? 48 83 C4 ? C3 ? ? ? ? ? ? ? ? ? ? ? ? 48 83 EC",
+    "getlevelnameshort": "48 83 EC ? E8 ? ? ? ? 84 C0 74 ? 48 8D 05 ? ? ? ? 48 83 C4 ? C3 48 8B 0D ? ? ? ? 48 85 C9 74 ? 83 B9 ? ? ? ? ? 7C ? 48 8B 89 ? ? ? ? 48 8D 05 ? ? ? ? 48 85 C9 48 0F 45 C1 48 83 C4 ? C3 48 8D 05 ? ? ? ? 48 83 C4 ? C3 ? ? ? ? ? ? ? ? ? ? ? ? B8"
+  },
+  "tier0.dll": {
+    "loadkv3_proc_address": "?LoadKV3@@YA_NPEAVKeyValues3@@PEAVCUtlString@@PEBDAEBUKV3ID_t@@2I@Z"
+  }
+}
